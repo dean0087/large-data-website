@@ -47,17 +47,35 @@ p{
 
 .grid-spacer{
 	margin: 0;
-	padding: 1em;
 }
 
 img{
 	width: 100%;
 }
 
+a{
+	text-decoration: none;
+	color: #fff;
+}
 .menu{
 	width:100%;
 	height: 50px;
 	background-color:#000;
+}
+
+.menu-item{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	background-color:#27CB39;
+	text-align:center;
+	color:#FFF;
+	float:left;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .footer{
@@ -65,7 +83,15 @@ img{
 	height: 60px;
 	background-color:#000;
 	color:#FFF;
+	position: fixed;
+	bottom:0;
 }
+
+.top{
+	width: 100%;
+	background-color:#27CB39;
+}
+
 
 @media only screen and (max-width:25em) {
 	
@@ -76,6 +102,8 @@ img{
 
 .grid-unit{
 	width:100%;
+	padding: 
+	
 }
 	
 }
