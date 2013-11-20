@@ -1,131 +1,177 @@
-@moz-viewport {width: device-width; scale:1;}
-@ms-viewport {width: device-width; scale:1;}
-@-o-viewport {width: device-width; scale:1;}
-@-webkit-viewport {width: device-width; scale:1;}
-@viewport {width: device-width; scale:1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
-*{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing:border-box;
-}
 
-<!---------------------------------->
+html {
+  margin:0;
+  padding:0;
 
-html{
-	margin: 0;
-	padding: 0;
+  font-family: Georgia, serif;
+
 }
 
 body{
-	margin:0;
-	padding:0;
-	
-	font: Georgia, "Times New Roman", Times, serif;
-	background-color:#666;
+  margin:0;
+  padding:0;
+  
+  background-color:#FFC;
 }
 
-p{
-	color:#FFF;
-	padding-left: 1em;
-	padding-right: 1em;
+/*----------------------------------------------------------------------HEADER*/
+
+header {
+  background-color:#090;
+  height: 4rem;
 }
 
-<!--------------------------------->
-
-.grid-unit{
-	width: 100%;
-	float:left;
+ul{
+	background-color: #090;
 }
-.grid-row{
+
+.logo {
+  color: #fff;
+
+  padding:20px;
+  margin: 0;
+
+  float: right;
+
+  display: inline;
+}
+
+/*--------------------------------------------------------------------WRAPPERS*/
+
+.flex-img {
+  width: 100%;
+}
+
+.left-wrapper {
+  width: 100%;
+  display: inline-block;
+  margin:0;
+  padding:0;
+
+}
+
+.right-wrapper {
+  width: 100%;
+
+  background-color: #FFC;
+  padding: 10px;
+  margin:0;
+}
+
+.lower-left-wrap {
+  width: 100%;
+
+  margin: 0 0 8rem 0;
+  padding: 5px;
+
+	background-color:#B7FA9E;
+}
+
+@media only screen and (min-width: 40em){
+  .left-wrapper {
+    width: 47%;
+    float:left;
+  }
+
+  .right-wrapper {
+    width: 47%;
+    height: 1000px;
+    float:right;
+
+    display: block;
+	background-color: #FFC;
+
+  }
+
+  .lower-left-wrap {
+    width: 45%;
+    float: left;
+
+    margin: .75rem;
+	background-color:#B7FA9E;
+  }
+  
+  .subtitle{
+	  font-size: 1.75em;
+	  line-height: 1.5em;
+  }
+}
+
+
+
+/*----------------------------------------------------------------------FOOTER*/
+
+footer {
+  width: 100%;
+  background-color: #090;;
+  color: #fff;
+
+  bottom:0;
+  position: fixed;
+
+  padding: 10px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+/*---------------------------SKIP LINK*/
+.skiplinks{
 	margin: 0;
 	padding: 0;
+	position: absolute;
+	z-index: 3000;
 	
-	width: 100%;
-	overflow: hidden;
-}
-
-.grid-spacer{
-	margin: 0;
-}
-
-img{
-	width: 100%;
-}
-
-a{
-	text-decoration: none;
-	color: #fff;
-}
-.menu{
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style-type: none;
+	
 	width:100%;
-	height: 50px;
-	background-color:#000;
 }
 
-.menu-item{
-	width: 25%;
-	margin: 0;
-	padding: 0;
-	background-color:#27CB39;
-	text-align:center;
-	color:#FFF;
-	float:left;
-	display: inline-block;
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em;
+	position: absolute;
+	top:-10em;
+	
+	background-color: black;
+	
+	color: white;
 	text-decoration: none;
-	font-size: 1.5em;
-	padding-top: .5em;
-	padding-bottom: .5em;
+
 }
 
-.footer{
-	width: 100%;
-	height: 60px;
-	background-color:#000;
-	color:#FFF;
-	position: fixed;
-	bottom:0;
+.skiplinks a:focus{
+	top: 0;
 }
 
-.top{
-	width: 100%;
-	background-color:#27CB39;
+a,
+a:link,
+a:visited {
+	/*
+	Change your color, etc.
+	The underline is also extremely important to accessiblity.
+	You should have an underline, but you can use a border if you want more control.
+	*/
 }
 
-
-@media only screen and (max-width:25em) {
-	
-.grid-spacer{
-	margin: 0;
-	padding: 0;
+a:hover,
+a:active{
+	/*
+	It's OK to remove the outline on hover/active 
+	becuse they are mouse based interactions.
+	*/
 }
 
-.grid-unit{
-	width:100%;
-	padding: 
-	
-}
-	
-}
-
-@media only screen and (min-width:25em and max-width:40em){
-	.grid-unit{
-		width:50%;
-		float:left;
-	}
-	
-	.grid-row{
-		display:inline-block;
-	}
-}
-
-@media only screen and (min-width:40em){
-	.grid-unit{
-		width:50%;
-		float:left;
-	}
-	
-	.grid-row{
-		display:inline-block;
-	}
+a:focus {
+	outline: 3px solid #000;
 }
