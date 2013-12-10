@@ -57,7 +57,7 @@ ul{
 /*--------------------------------------------------------------------WRAPPERS*/
 
 .flex-img {
-  width: 105%;
+  width: 95%;
 }
 
 .left-wrapper {
@@ -82,7 +82,7 @@ ul{
   margin: 0 0 8rem 0;
   padding: 5px;
 
-	background-color:#B7FA9E;
+  background-color:#B7FA9E;
 }
 
 
