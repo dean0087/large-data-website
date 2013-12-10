@@ -73,11 +73,12 @@ ul{
 	background-color:#B7FA9E;
 }
 
+.bear-img{
+	width: 80%;
+}
+
+
 @media only screen and (min-width: 40em){
- 
- 	img{
-		width: 80%;
-	}
  
   .left-wrapper {
     width: 47%;
