@@ -11,7 +11,7 @@ layout: default
 		  {% for bear in site.pages %}
 			{% if bear.category == "southamerica" %}
 			  <h3>{{bear.type}}</h3>
-			  <img src="{{site.baseurl}}/img/{{bear.image}}" alt="Photo of {{bear.type}}">
+			  <img src="{{site.baseurl}}/img/{{bear.image}}" alt="Photo of {{bear.type}}" class="bear-img">
 			  <p>{{bear.weight}}</p>
 			  <p>{{bear.info}}</p>
 			{% endif %}
