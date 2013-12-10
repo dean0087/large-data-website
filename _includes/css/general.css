@@ -74,6 +74,11 @@ ul{
 }
 
 @media only screen and (min-width: 40em){
+ 
+ 	img{
+		width: 80%;
+	}
+ 
   .left-wrapper {
     width: 47%;
     float:left;
