@@ -46,6 +46,8 @@ header {
 ul{
 	background-color: #090;
 	padding: 20px;
+	border: dashed;
+	border-color: #000;
 }
 
 .logo {
