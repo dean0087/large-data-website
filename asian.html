@@ -14,7 +14,7 @@ meta: Asian Bears
 			{% if bear.category == "asia" %}
 			  <h3>{{bear.type}}</h3>
 			  <img src="{{site.baseurl}}/img/{{bear.image}}" alt="Photo of {{bear.type}}" class="bear-img">
-			  <p>{{bear.weight}}</p>
+			  <p>Weight: {{bear.weight}}</p>
 			  <p>{{bear.info}}</p>
 			{% endif %}
 		  {% endfor %}
