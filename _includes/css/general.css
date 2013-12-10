@@ -24,6 +24,10 @@ p{
 	padding: 2.5%;
 }
 
+.bear-img{
+	width: 85%;
+}
+
 /*----------------------------------------------------------------------HEADER*/
 
 header {
@@ -75,10 +79,6 @@ ul{
   padding: 5px;
 
 	background-color:#B7FA9E;
-}
-
-.bear-img{
-	width: 100%;
 }
 
 
