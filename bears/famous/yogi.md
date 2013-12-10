@@ -1,4 +1,5 @@
 ---
+category: famous
 type: Yogi Bear
 location: Famous
 weight: NA

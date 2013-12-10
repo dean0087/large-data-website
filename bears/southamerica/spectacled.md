@@ -1,4 +1,5 @@
 ---
+category: southamerica
 type: Spectacled Bear
 location: South America
 weight: 100 to 200 kg (220 to 440 lb)

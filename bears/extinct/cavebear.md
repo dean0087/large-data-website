@@ -1,4 +1,5 @@
 ---
+category: extinct
 type: Cave Bear
 location: Extinct
 weight: 400 to 500 kilograms (880 to 1,100 lb)

@@ -1,4 +1,5 @@
 ---
+category: asia
 type: Sun Bear
 location: Asia
 weight: 27–65 kg (60–143 lb)

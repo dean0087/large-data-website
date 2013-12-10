@@ -1,4 +1,5 @@
 ---
+category: asia
 type: Panda
 location: Asia
 weight: 100 to 115 kg (220 to 254 lb)

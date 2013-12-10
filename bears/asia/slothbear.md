@@ -1,4 +1,5 @@
 ---
+category: asia
 type: Sloth Bear
 location: Asia
 weight: 80 to 192 kg (176 to 423 lb) 

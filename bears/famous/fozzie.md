@@ -1,4 +1,5 @@
 ---
+category: famous
 type: Fozzie Bear
 location: Famous
 weight: NA

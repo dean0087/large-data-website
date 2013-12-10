@@ -1,4 +1,5 @@
 ---
+category: asia
 type: Asiatic Black Bear
 location: Asia
 weight: 100–200 kg (220-440 lbs) 

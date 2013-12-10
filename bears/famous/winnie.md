@@ -1,4 +1,5 @@
 ---
+category: famous
 type: Winnie the Pooh
 location: Famous
 weight: NA

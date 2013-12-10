@@ -1,4 +1,5 @@
 ---
+category: extinct
 type: Short-faced Bear
 location: Extinct
 weight: ???
