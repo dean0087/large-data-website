@@ -3,17 +3,17 @@
 <head>
 <title>{{page.title}}</title>
 <meta name="description" content="{{page.meta}}">
-  
-  
+
+
 
  	<!--CSS FILE LINKS-->
 	  <link href="css/large-data-website.css" rel="stylesheet">
-	  	
-	<!--JS FILE LINKS-->	
+
+	<!--JS FILE LINKS-->
 	  <script src="js/modernizr.js"></script>
 
 
-  
+
  	<!--FACEBOOK/TWITTER-->
 		<meta property="og:type" content="article">
 		<meta property="og:title" content="Bear Facts">
@@ -22,7 +22,7 @@
 		<meta property="og:image" content="http://bearfacts.com/images/bear.jpg">
 		<!-- `og:site_name` is optional but highly recommended -->
 		<meta property="og:site_name" content="Bear Facts">
-		
+
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:title" content="Bear Facts">
 		<meta name="twitter:url" content="http://bearfacts.com">
@@ -33,16 +33,15 @@
 
 
 </head>
-<body>
+<body id="top">
 
-		<p>
-			<!--------------SKIP LINKS--------------------->
-		</p>
+			<!--SKIP LINKS-->
+
 		<ul id="nav" role="navigation" class="skiplinks">
 			  <li>
 				  <a href="index.html" rel="home">Home</a>
 			  </li>
-		
+
 			  <li>
 				  <a href="#">Info</a>
 				  <ul>
@@ -53,7 +52,7 @@
 			  </li>
 			  <li>
 				  <a href="#">Bears</a>
-		
+
 				  <ul>
 					  <li><a href="north.html">North America</a></li>
 					  <li><a href="south.html">South America</a></li>
@@ -67,7 +66,7 @@
 
   <header>
 
-    <p class="logo">LOGO</p>
+    <img class="logo" src="img/Untitled-1-01.svg" alt="Bear Logo">
 
 
     <ul id="nav" role="navigation">
@@ -91,12 +90,16 @@
               <li><a href="north.html">North America</a></li>
               <li><a href="south.html">South America</a></li>
               <li><a href="asian.html">Asia</a></li>
-              <li><a href="famous.html">Famouus Bears</a></li>
+              <li><a href="famous.html">Famous Bears</a></li>
               <li><a href="extinct.html">Extinct Bears</a></li>
           </ul>
       </li>
     </ul>
   </header>
+
+
+    <div class="banner" role="banner">
+    </div>
 
 
 
@@ -106,6 +109,7 @@
   <footer>
     <p class="footertext">
       ©Jamie Dean 2013 --- Framework Assisted By: CSlack Design</p>
+      <a href="#top">Back to top</a>
   </footer>
 
 
@@ -119,7 +123,7 @@ if (!Modernizr.inlinesvg) {
     var imgs = document.getElementsByTagName('img')
       , totalImgs = imgs.length
       , i = 0
- 
+
       for (i = 0; i < totalImgs; i++) {
         imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
       }

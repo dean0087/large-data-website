@@ -7,11 +7,10 @@
 #nav{
     list-style:none;
     font-weight:bold;
-    margin: -3rem 0 0 0;
-    margin-bottom:10px;
+    margin: 0;
+    padding: 5px;
     /* Clear floats */
     float:left;
-    width:100%;
     position:relative;
     z-index:5;
 }
@@ -26,7 +25,7 @@
     display:block;
     padding:5px;
     color:#fff;
-    background:#090;
+    background:#0E9948;
     text-decoration:none;
 }
 #nav a:hover{
